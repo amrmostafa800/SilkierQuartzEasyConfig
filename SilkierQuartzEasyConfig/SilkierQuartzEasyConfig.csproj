@@ -8,6 +8,7 @@
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
 	  <Description>Easy Why To Config SilkierQuartz</Description>
 	  <Authors>amrmostafa999999999</Authors>
+	  <PackageVersion>1.0.1-beta</PackageVersion>
 	  <RepositoryUrl>https://github.com/amrmostafa800/SilkierQuartzEasyConfig</RepositoryUrl>
   </PropertyGroup>
 

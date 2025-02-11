@@ -4,10 +4,23 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <Authors>amrmostafa999999999</Authors>
+	  <RepositoryUrl>https://github.com/amrmostafa800/SilkierQuartzEasyConfig</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="SilkierQuartz" Version="5.0.375" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Pack="true" PackagePath="\" Update="LICENSE">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Pack="true" PackagePath="\" Update="README.md">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

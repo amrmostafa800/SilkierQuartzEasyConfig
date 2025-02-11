@@ -71,7 +71,7 @@ builder.Services.AddAuthentication()
 ```
 
 ### Step 4: Configure Authorization
-> **⚠️ Must be added after `AddAuthentication` (or `AddAuthorizationBuilder`).**
+> **⚠️ Must be added after `AddAuthentication`.**
 
 ```csharp
 builder.Services.AddAuthorization(options =>
@@ -80,7 +80,7 @@ builder.Services.AddAuthorization(options =>
 });
 ```
 
-### Step 5: Finalize Setup in Middleware
+### Step 5: Finalize Setup
 > **⚠️ This must be added before `app.Run()`.**
 
 ```csharp

@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
 	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <Description>Easy Why To Config SilkierQuartz</Description>
 	  <Authors>amrmostafa999999999</Authors>
 	  <RepositoryUrl>https://github.com/amrmostafa800/SilkierQuartzEasyConfig</RepositoryUrl>
   </PropertyGroup>

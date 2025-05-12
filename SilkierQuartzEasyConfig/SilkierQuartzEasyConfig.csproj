@@ -16,13 +16,4 @@
     <PackageReference Include="SilkierQuartz" Version="5.0.375" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Pack="true" PackagePath="\" Update="LICENSE">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Pack="true" PackagePath="\" Update="README.md">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 </Project>

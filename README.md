@@ -86,3 +86,9 @@ builder.Services.AddAuthorization(options =>
 ```csharp
 app.UseSilkierQuartzEasy();
 ```
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+© Amr Mostafa, 2025. See the LICENSE file for details.
